@@ -1,5 +1,7 @@
 from django.shortcuts import render
-
+import os
 # Create your views here.
 def home(request):
-    return render(request, 'home.html')
+    test = os.getenv('TEST')
+    print(test)
+    return render(request, test, 'home.html')
