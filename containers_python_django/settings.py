@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure-m+1z_2#1!&$$*72a%&z3j4!a=7^=!5@stt)-&v+9ray#1u+csa
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['0.0.0.0','djangotest-cld7ffdy.b4a.run', 'node254a.containers.back4app.com:5051']
+ALLOWED_HOSTS = ['0.0.0.0','djangotest-cld7ffdy.b4a.run', 'node254a.containers.back4app.com', 'node255a.containers.back4app.com', 'node256a.containers.back4app.com']
 
 
 
