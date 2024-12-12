@@ -10,7 +10,7 @@ ARG VARNAME=init
 # Set an environment variable using the ARG value
 ENV VARNAME=$VARNAME
 
-RUN echo "$VARNAME"
+RUN echo "my variable is: $VARNAME"
 
 
 COPY requirements.txt requirements.txt
