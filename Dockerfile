@@ -3,6 +3,16 @@ FROM python:3.9-slim-buster
 
 WORKDIR /app
 
+
+# Define an argument with a default value
+ARG VARNAME=init
+
+# Set an environment variable using the ARG value
+ENV VARNAME=$VARNAME
+
+RUN echo "$VARNAME"
+
+
 COPY requirements.txt requirements.txt
 RUN pip3 install -r requirements.txt
 
